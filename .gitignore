@@ -1,5 +1,7 @@
 venv/
 data/
 checkpoints/
+runs/
+results/
 *.wav
 .DS_Store
