@@ -1,9 +1,3 @@
-"""Synthesize test sentences with a SpeechT5 model (baseline or fine-tuned).
-
-Examples:
-    python src/generate.py --model microsoft/speecht5_tts --out samples/baseline
-    python src/generate.py --model checkpoints/ft_30m_lr1e-5/best --out samples/ft_30m
-"""
 import argparse
 import time
 from pathlib import Path

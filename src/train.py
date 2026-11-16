@@ -1,11 +1,3 @@
-"""Fine-tune SpeechT5 TTS on a subset of prepared LJSpeech data.
-
-Example:
-    # smoke test (~minutes)
-    python src/train.py --name smoke --hours 0.1 --steps 20 --eval_every 10
-    # real run
-    python src/train.py --name ft_30m_lr1e-5 --hours 0.5 --steps 1000 --lr 1e-5
-"""
 import argparse
 import json
 import random

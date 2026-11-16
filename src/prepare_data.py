@@ -1,13 +1,3 @@
-"""Download LJSpeech and precompute mel targets + x-vector speaker embeddings.
-
-Usage:
-    python src/prepare_data.py --max_hours 3
-
-Output (data/processed/):
-    train.pt  - list of dicts, in a fixed shuffled order (subsets = prefixes)
-    val.pt    - held-out validation clips
-    meta.pt   - mean speaker embedding, counts
-"""
 import argparse
 import random
 import tarfile

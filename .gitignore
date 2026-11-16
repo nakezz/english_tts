@@ -5,3 +5,4 @@ runs/
 results/
 *.wav
 .DS_Store
+__pycache__
