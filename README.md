@@ -191,8 +191,8 @@ Validation loss dropped rapidly within the first 200 steps (from `0.5888` to `0.
 
 ## Authors
 
-- **A. Nurislam** (B241960003)
-- **Tsetsenbilguun**
+- **A. Nurislam** 
+- **G. Tsetsenbilguun**
 
 Instructor: **J. Orgil**  
 Course: **Machine Learning (F.CSM308)**  
